@@ -1,0 +1,32 @@
+{
+    "options": {
+        "schema": "geniushub",
+        "table": "empresa",
+        "columns": [
+            "id_empresa",
+            "razao_social",
+            "cnpj",
+            "email",
+            "senha",
+            "endereco",
+            "dominio"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_empresa"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

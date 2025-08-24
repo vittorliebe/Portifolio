@@ -1,0 +1,22 @@
+{
+    "end": "2025-08-24 18:02:30",
+    "dataBytes": 0,
+    "tableDataBytes": {
+        "geniushub": {
+            "categoria": 0,
+            "empresa": 0,
+            "desafio": 0,
+            "solucao": 0,
+            "usuario": 0,
+            "feedback": 0
+        }
+    },
+    "chunkFileBytes": {
+        "geniushub@categoria@@0.tsv.zst": 0,
+        "geniushub@empresa@@0.tsv.zst": 0,
+        "geniushub@desafio@@0.tsv.zst": 0,
+        "geniushub@solucao@@0.tsv.zst": 0,
+        "geniushub@usuario@@0.tsv.zst": 0,
+        "geniushub@feedback@@0.tsv.zst": 0
+    }
+}

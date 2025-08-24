@@ -1,0 +1,33 @@
+{
+    "options": {
+        "schema": "geniushub",
+        "table": "desafio",
+        "columns": [
+            "id_desafio",
+            "id_empresa",
+            "id_categoria",
+            "bonificacao",
+            "status",
+            "data_postada",
+            "descricao",
+            "titulo"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_desafio"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

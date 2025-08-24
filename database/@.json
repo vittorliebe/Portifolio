@@ -1,0 +1,27 @@
+{
+    "dumper": "mysqlsh Ver 8.0.43 for Win64 on x86_64 - for MySQL 8.0.43 (MySQL Community Server (GPL))",
+    "version": "2.0.1",
+    "origin": "dumpSchemas",
+    "schemas": [
+        "geniushub"
+    ],
+    "basenames": {
+        "geniushub": "geniushub"
+    },
+    "defaultCharacterSet": "utf8mb4",
+    "tzUtc": true,
+    "bytesPerChunk": 64000000,
+    "user": "root",
+    "hostname": "DESKTOP-DOF0OHM",
+    "server": "DESKTOP-DOF0OHM",
+    "serverVersion": "8.0.43",
+    "binlogFile": "DESKTOP-DOF0OHM-bin.000002",
+    "binlogPosition": 2104317,
+    "gtidExecuted": "",
+    "gtidExecutedInconsistent": false,
+    "consistent": true,
+    "partialRevokes": false,
+    "compatibilityOptions": [],
+    "capabilities": [],
+    "begin": "2025-08-24 18:02:30"
+}

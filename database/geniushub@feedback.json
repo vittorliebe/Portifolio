@@ -1,0 +1,31 @@
+{
+    "options": {
+        "schema": "geniushub",
+        "table": "feedback",
+        "columns": [
+            "id_feedback",
+            "id_solucao",
+            "id_empresa",
+            "comentario",
+            "data_feedback",
+            "nota"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_feedback"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

@@ -1,0 +1,26 @@
+{
+    "schema": "geniushub",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "usuario",
+        "categoria",
+        "empresa",
+        "desafio",
+        "solucao",
+        "feedback"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "usuario": "geniushub@usuario",
+        "categoria": "geniushub@categoria",
+        "empresa": "geniushub@empresa",
+        "desafio": "geniushub@desafio",
+        "solucao": "geniushub@solucao",
+        "feedback": "geniushub@feedback"
+    }
+}

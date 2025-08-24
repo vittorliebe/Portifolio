@@ -1,0 +1,33 @@
+{
+    "options": {
+        "schema": "geniushub",
+        "table": "usuario",
+        "columns": [
+            "id_usuario",
+            "nome",
+            "email",
+            "senha",
+            "data_nascimento",
+            "cpf",
+            "id_categoria",
+            "genero"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_usuario"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

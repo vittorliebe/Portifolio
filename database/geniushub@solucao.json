@@ -1,0 +1,31 @@
+{
+    "options": {
+        "schema": "geniushub",
+        "table": "solucao",
+        "columns": [
+            "id_solucao",
+            "id_desafio",
+            "id_usuario",
+            "id_categoria",
+            "resolucao",
+            "data_termino"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_solucao"
+    ],
+    "partitions": [],
+    "basenames": {}
+}
